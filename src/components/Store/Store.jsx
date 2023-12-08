@@ -42,7 +42,7 @@ export default function Store() {
 
       const onSwitch = () => {
         modeSwitch(
-            mode === 'view_list' ? mode = 'view_module' : mode = 'view_list'
+            mode === 'view_list' ? 'view_module' : 'view_list'
             
         )
 
